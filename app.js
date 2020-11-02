@@ -24,8 +24,8 @@ if(x4.innerText!==""&&x4.innerText===x5.innerText&&x4.innerText===x6.innerText){
 if(x7.innerText!==""&&x7.innerText===x8.innerText&&x7.innerText===x9.innerText){x7.style.color="green";x8.style.color="green";x9.style.color="green";console.log(x1.innerText+" wins!");t=true}
 
 if(x1.innerText!==""&&x1.innerText===x4.innerText&&x1.innerText===x7.innerText){x1.style.color="green";x4.style.color="green";x7.style.color="green";console.log(x1.innerText+" wins!");t=true}
-if(x2.innerText!==""&&x2.innerText===x6.innerText&&x2.innerText===x8.innerText){x2.style.color="green";x6.style.color="green";x8.style.color="green";console.log(x1.innerText+" wins!");t=true}
-if(x3.innerText!==""&&x3.innerText===x5.innerText&&x3.innerText===x9.innerText){x3.style.color="green";x5.style.color="green";x9.style.color="green";console.log(x1.innerText+" wins!");t=true}
+if(x2.innerText!==""&&x2.innerText===x5.innerText&&x2.innerText===x8.innerText){x2.style.color="green";x5.style.color="green";x8.style.color="green";console.log(x1.innerText+" wins!");t=true}
+if(x3.innerText!==""&&x3.innerText===x6.innerText&&x3.innerText===x9.innerText){x3.style.color="green";x6.style.color="green";x9.style.color="green";console.log(x1.innerText+" wins!");t=true}
 }
 }
 
