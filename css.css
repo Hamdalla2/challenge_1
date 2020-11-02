@@ -10,7 +10,7 @@ body *{
     align-items:center;
 }
 #a1{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-top: none;
     border-left: none;
@@ -19,7 +19,7 @@ body *{
     color:pink;
 }
 #a2{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-top: none;
     background-color: pink;
@@ -27,7 +27,7 @@ body *{
     color:pink;
 }
 #a3{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-top: none;
     border-right: none;
@@ -36,7 +36,7 @@ body *{
     color:pink;
 }
 #a4{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-left: none;
     background-color: pink;
@@ -44,14 +44,14 @@ body *{
     color:pink;
 }
 #a5{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     background-color: pink;
     font-size: 50px;
     color:pink;
 }
 #a6{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-right: none;
     background-color: pink;
@@ -59,7 +59,7 @@ body *{
     color:pink;
 }
 #a7{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-bottom: none;
     border-left: none;
@@ -68,7 +68,7 @@ body *{
     color:pink;
 }
 #a8{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-bottom: none;
     background-color: pink;
@@ -76,7 +76,7 @@ body *{
     color:pink;
 }
 #a9{
-    padding:70px;
+    padding:100px;
     border:purple 3px solid;
     border-bottom: none;
     border-right: none;
@@ -119,4 +119,12 @@ body *{
     margin-left:100px;
     color: violet;
     text-shadow: 5px 5px 10px orange;
+}
+#b1{
+    color:pink;
+    background-color: purple;
+    border-radius: 12px;
+    height:30px;
+    width:400px;
+    outline: none;
 }
