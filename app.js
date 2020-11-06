@@ -1,10 +1,10 @@
 var t=false
+var turn=0
 let c=function(x){
 if(!t){
 
-if(x.innerText===""){x.innerText="X";x.style.color="red";x.style.padding="71px 82px 71px 82px"}
-else if(x.innerText==="X"){x.innerText="O";x.style.color="blue";x.style.padding="71px 82px 71px 82px"}
-else{x.innerText="";x.style.padding="100px"}
+if(x.innerText==="" && turn===0){x.innerText="X";x.style.color="red";x.style.padding="71px 82px 71px 82px";turn++}
+else if(x.innerText==="" && turn===1){x.innerText="O";x.style.color="blue";x.style.padding="71px 82px 71px 82px";turn--}
 
 x1=document.getElementById('a1')
 x2=document.getElementById('a2')
@@ -51,4 +51,5 @@ let r=function(b){
     x9=document.getElementById('a9').style.padding="100px"
 
     t=false
+    turn=0
 }
